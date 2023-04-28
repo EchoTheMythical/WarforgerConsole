@@ -7,6 +7,7 @@
 #include "Custom.h"
 #include <vector>
 #include <algorithm>
+#include <cctype>
 using namespace std;
 
 int main()
@@ -14,14 +15,17 @@ int main()
 	WList weapon;
 	Custom custom;
 	string selection;
-	weapon.greatsword.printtraits();
-	cout << "What type of weapon do you wanna make. Name of weapon in all lowercase or custom for making your own from scratch.";
+	int index;
+	cout << "What type of weapon do you wanna make. Name of weapon in all lowercase or custom for making your own from scratch.\n";
 	cin >> selection;
-	if (selection == "custom") {
+	selection[0] = toupper(selection[0]);
+	if (selection == "Custom") {
 
 	}
-	else if (count(weapon.weapons.begin(), weapon.weapons.end(), selection)) {
-		
+	else if (find(weapon.weaponnames.begin(), weapon.weaponnames.end(), selection) != weapon.weaponnames.end()) {
+		auto it = find(weapon.weaponnames.begin(), weapon.weaponnames.end(), selection);
+		index = it - weapon.weaponnames.begin();
+		weapon.weapons.at(index).printtraits();
 	}
 	else {
 		cout << "Please enter a weapon name.";

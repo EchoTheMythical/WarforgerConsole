@@ -27,6 +27,9 @@
     <ClCompile Include="Rapier.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DiHanded.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Weapon.h">
@@ -41,13 +44,19 @@
     <ClInclude Include="Longsword.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Traits.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Custom.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Rapier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trait.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TraitsList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiHanded.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

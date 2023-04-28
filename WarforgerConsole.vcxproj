@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DiHanded.cpp" />
     <ClCompile Include="Greatsword.cpp" />
     <ClCompile Include="Longsword.cpp" />
     <ClCompile Include="Rapier.cpp" />
@@ -134,10 +135,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Custom.h" />
+    <ClInclude Include="DiHanded.h" />
     <ClInclude Include="Greatsword.h" />
     <ClInclude Include="Longsword.h" />
     <ClInclude Include="Rapier.h" />
-    <ClInclude Include="Traits.h" />
+    <ClInclude Include="Trait.h" />
+    <ClInclude Include="TraitsList.h" />
     <ClInclude Include="Weapon.h" />
     <ClInclude Include="WeaponsList.h" />
   </ItemGroup>

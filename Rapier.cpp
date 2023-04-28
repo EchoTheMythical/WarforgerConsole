@@ -8,7 +8,5 @@ Rapier::Rapier()
 	hasmetal = true;
 	hascloth = true;
 	damage = "1d10 Slashing/Piercing PT";
-	addtrait("Long");
-	addtrait("Dexterous");
 	strreq = 2;
 }

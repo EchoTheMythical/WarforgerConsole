@@ -9,6 +9,6 @@ Longsword::Longsword()
 	haswood = true;
 	hasleather = true;
 	damage = "1d8 Slashing PT Two-Handed 1d6 Slashing PT One-Handed";
-	addtrait("DiHanded");
+	addtrait(trait.tdiHanded);
 	strreq = 1;
 }

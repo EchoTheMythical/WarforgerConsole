@@ -8,5 +8,6 @@ public:
 	Longsword longsword;
 	Rapier rapier;
 
-	vector<Weapon> weapons = {greatsword, longsword, rapier};
+	vector<string> weaponnames = {greatsword.name, longsword.name, rapier.name};
+	vector<Weapon> weapons = { greatsword, longsword, rapier};
 };
