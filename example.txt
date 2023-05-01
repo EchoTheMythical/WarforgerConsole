@@ -1,0 +1,8 @@
+Greatsword - Blade
+2 Meters
+1d10 Slashing/Piercing PT
+Momentum, Stance(Piercing), Long, Heavy
+You can take an action to build momentum. The next time you hit with this weapon it does a bonus 50% damage.
+Allows it to change its base damage to the specified damage type.
+The weapon gains 1m of hit range. This is automatically calculated into non-customs.
+The weapon takes up two hand slots to use.

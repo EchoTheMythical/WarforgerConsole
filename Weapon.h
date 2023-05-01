@@ -6,6 +6,7 @@
 #include <vector>
 #include "Trait.h"
 #include "TraitsList.h"
+#include <fstream>
 using namespace std;
 class Weapon{
 public:
@@ -34,6 +35,21 @@ public:
 		}
 		for (int i = 0; i < traits.size(); i++) {
 			cout << traits.at(i).effect << "\n";
+		}
+	}
+	inline void filetraits() {
+		ofstream myfile;
+		myfile.open("example.txt");
+		myfile << name << " - " << type << "\n"
+			<< range << " Meters" << "\n"
+			<< damage << "\n";
+		for (int i = 0; i < traits.size(); i++) {
+			myfile << traits.at(i).name;
+			if (i < traits.size() - 1) myfile << ", ";
+			else myfile << "\n";
+		}
+		for (int i = 0; i < traits.size(); i++) {
+			myfile << traits.at(i).effect << "\n";
 		}
 	}
 };

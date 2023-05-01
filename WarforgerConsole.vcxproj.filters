@@ -30,6 +30,27 @@
     <ClCompile Include="DiHanded.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Long.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dexterous.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Momentum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Heavy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Syringe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatAnchor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Weapon.h">
@@ -57,6 +78,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DiHanded.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Long.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dexterous.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Momentum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Heavy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Syringe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatAnchor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

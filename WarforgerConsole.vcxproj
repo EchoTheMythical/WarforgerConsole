@@ -127,18 +127,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CombatAnchor.cpp" />
+    <ClCompile Include="Dexterous.cpp" />
     <ClCompile Include="DiHanded.cpp" />
     <ClCompile Include="Greatsword.cpp" />
+    <ClCompile Include="Heavy.cpp" />
+    <ClCompile Include="Long.cpp" />
     <ClCompile Include="Longsword.cpp" />
+    <ClCompile Include="Momentum.cpp" />
     <ClCompile Include="Rapier.cpp" />
+    <ClCompile Include="Stance.cpp" />
+    <ClCompile Include="Syringe.cpp" />
     <ClCompile Include="WarforgerConsole.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CombatAnchor.h" />
     <ClInclude Include="Custom.h" />
+    <ClInclude Include="Dexterous.h" />
     <ClInclude Include="DiHanded.h" />
     <ClInclude Include="Greatsword.h" />
+    <ClInclude Include="Heavy.h" />
+    <ClInclude Include="Long.h" />
     <ClInclude Include="Longsword.h" />
+    <ClInclude Include="Momentum.h" />
     <ClInclude Include="Rapier.h" />
+    <ClInclude Include="Stance.h" />
+    <ClInclude Include="Syringe.h" />
     <ClInclude Include="Trait.h" />
     <ClInclude Include="TraitsList.h" />
     <ClInclude Include="Weapon.h" />
